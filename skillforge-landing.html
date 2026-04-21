@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SkillForge — Learn. Build. Launch.</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="topbar"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <div class="logo-mark">S</div>
+    <span class="logo-text">SkillForge</span>
+  </a>
+  <ul id="navlist">
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#how">How It Works</a></li>
+    <li><a href="#testimonials">Stories</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#cta" class="nav-cta">Join Free</a></li>
+  </ul>
+  <button class="hamburger" id="hbg" aria-label="menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-blob blob1"></div>
+  <div class="hero-bg-blob blob2"></div>
+  <div class="hero-bg-blob blob3"></div>
+
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-pill">New courses every week</div>
+
+      <h1>
+        Learn Skills That<br/>
+        Actually <span class="h1-pink">Get You</span><br/>
+        <span class="h1-blue">Hired.</span>
+      </h1>
+
+      <p class="hero-sub">
+        Expert-led courses in tech, design & business. Learn at your own pace, build real projects, and land your dream job — guaranteed.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#courses" class="btn-main">
+          🚀 Browse Courses
+        </a>
+        <a href="#how" class="btn-outline">
+          ▶ Watch Demo
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">84<span>K+</span></div>
+          <div class="stat-label">Active Students</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">320<span>+</span></div>
+          <div class="stat-label">Courses</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">4.9<span>★</span></div>
+          <div class="stat-label">Avg Rating</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLOATING CARDS -->
+    <div class="hero-right">
+      <!-- Main Course Card -->
+      <div class="course-card cc-main" style="transform:rotate(-2deg)">
+        <div class="cc-thumb" style="background:linear-gradient(135deg,#eef1ff,#c7d0ff);">🎨</div>
+        <div class="cc-tag" style="background:var(--blue-pale);color:var(--blue);">UI/UX Design</div>
+        <div class="cc-title">The Complete Figma Masterclass 2025</div>
+        <div class="cc-meta">
+          <span class="cc-rating">★ 4.9</span>
+          <span>12,400 students</span>
+        </div>
+        <div class="cc-progress-bar">
+          <div class="cc-progress-fill" style="width:68%;background:linear-gradient(90deg,var(--blue),var(--cyan));"></div>
+        </div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-top:0.4rem;">68% complete</div>
+      </div>
+
+      <!-- Side Card 1 -->
+      <div class="course-card cc-side1" style="transform:rotate(3deg)">
+        <div class="live-badge"><div class="live-dot"></div> LIVE</div>
+        <div class="cc-tag" style="background:var(--pink-pale);color:var(--pink);">React.js</div>
+        <div class="cc-title">Full-Stack React with Node</div>
+        <div class="cc-meta">
+          <span class="cc-rating">★ 4.8</span>
+        </div>
+        <div class="cc-price">₹1,499</div>
+      </div>
+
+      <!-- Side Card 2 -->
+      <div class="course-card cc-side2" style="transform:rotate(-1.5deg)">
+        <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.75rem;">
+          <div style="width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--orange));display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.1rem;">🏆</div>
+          <div>
+            <div style="font-family:'Syne',sans-serif;font-weight:700;font-size:0.82rem;color:var(--ink);">Achievement Unlocked!</div>
+            <div style="font-size:0.72rem;color:var(--muted);">Python Fundamentals</div>
+          </div>
+        </div>
+        <div style="font-size:0.78rem;color:var(--muted);">You completed the module 🎉<br/>3,200 XP earned</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUSTED BY -->
+<div class="trusted">
+  <div class="trusted-inner">
+    <div class="trusted-label">Trusted by teams at</div>
+    <div class="trusted-logos">
+      <div class="logo-item">Google</div>
+      <div class="logo-item">Razorpay</div>
+      <div class="logo-item">Zepto</div>
+      <div class="logo-item">Meesho</div>
+      <div class="logo-item">CRED</div>
+      <div class="logo-item">Swiggy</div>
+      <div class="logo-item">Zomato</div>
+      <div class="logo-item">PhonePe</div>
+    </div>
+  </div>
+</div>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-tag" style="color:var(--blue);">📚 Top Courses</div>
+      <h2>Handpicked for Your<br/>Career Growth</h2>
+      <p class="section-lead">From beginner to expert — find the perfect course to level up your skills.</p>
+    </div>
+
+    <div class="courses-header reveal reveal-delay1">
+      <div></div>
+      <div class="filter-tabs">
+        <button class="filter-tab active" onclick="filterCourses(this,'all')">All</button>
+        <button class="filter-tab" onclick="filterCourses(this,'dev')">Development</button>
+        <button class="filter-tab" onclick="filterCourses(this,'design')">Design</button>
+        <button class="filter-tab" onclick="filterCourses(this,'data')">Data & AI</button>
+      </div>
+    </div>
+
+    <div class="courses-grid reveal reveal-delay2" id="coursesGrid">
+      <!-- Card 1 -->
+      <div class="card" data-cat="dev">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#fff0f5,#ffc3d8);">⚛️</div>
+        <div class="card-body">
+          <div class="card-tag" style="background:var(--pink-pale);color:var(--pink);">React.js</div>
+          <div class="card-title">Complete React & Next.js Bootcamp 2025</div>
+          <div class="card-meta">
+            <span>⭐ 4.9</span>
+            <span>🕐 42h</span>
+            <span>👥 18.2K</span>
+          </div>
+          <div class="card-footer">
+            <div class="card-instructor">
+              <div class="inst-avatar" style="background:linear-gradient(135deg,var(--pink),var(--orange));">RS</div>
+              Rahul S.
+            </div>
+            <div class="card-price"><s>₹3,999</s>₹1,299</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card" data-cat="data">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#eef1ff,#c7d0ff);">🤖</div>
+        <div class="card-body">
+          <div class="card-tag" style="background:var(--blue-pale);color:var(--blue);">AI & ML</div>
+          <div class="card-title">Machine Learning with Python — Zero to Hero</div>
+          <div class="card-meta">
+            <span>⭐ 4.8</span>
+            <span>🕐 56h</span>
+            <span>👥 24.6K</span>
+          </div>
+          <div class="card-footer">
+            <div class="card-instructor">
+              <div class="inst-avatar" style="background:linear-gradient(135deg,var(--blue),var(--cyan));">PK</div>
+              Priya K.
+            </div>
+            <div class="card-price"><s>₹4,999</s>₹1,799</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card" data-cat="design">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#e6faf8,#a8f0e8);">🎨</div>
+        <div class="card-body">
+          <div class="card-tag" style="background:var(--cyan-pale);color:#009d8a;">Figma</div>
+          <div class="card-title">UI/UX Design Masterclass: Figma to Prototype</div>
+          <div class="card-meta">
+            <span>⭐ 4.9</span>
+            <span>🕐 35h</span>
+            <span>👥 11.8K</span>
+          </div>
+          <div class="card-footer">
+            <div class="card-instructor">
+              <div class="inst-avatar" style="background:linear-gradient(135deg,var(--cyan),var(--green));">AM</div>
+              Aisha M.
+            </div>
+            <div class="card-price"><s>₹2,999</s>₹999</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card" data-cat="dev">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#fffbe6,#ffe99a);">🐍</div>
+        <div class="card-body">
+          <div class="card-tag" style="background:var(--yellow-pale);color:#b5870a;">Python</div>
+          <div class="card-title">Python for Beginners: Code Your First App</div>
+          <div class="card-meta">
+            <span>⭐ 4.7</span>
+            <span>🕐 28h</span>
+            <span>👥 32.1K</span>
+          </div>
+          <div class="card-footer">
+            <div class="card-instructor">
+              <div class="inst-avatar" style="background:linear-gradient(135deg,var(--yellow),var(--orange));">VR</div>
+              Vijay R.
+            </div>
+            <div class="card-price"><s>₹1,999</s>₹699</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card" data-cat="data">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#f0fff8,#a8f0c6);">📊</div>
+        <div class="card-body">
+          <div class="card-tag" style="background:#f0fff8;color:#15803d;">Data Science</div>
+          <div class="card-title">Data Analytics with Excel, SQL & Tableau</div>
+          <div class="card-meta">
+            <span>⭐ 4.8</span>
+            <span>🕐 38h</span>
+            <span>👥 8.9K</span>
+          </div>
+          <div class="card-footer">
+            <div class="card-instructor">
+              <div class="inst-avatar" style="background:linear-gradient(135deg,var(--green),var(--cyan));">NK</div>
+              Neha K.
+            </div>
+            <div class="card-price"><s>₹3,499</s>₹1,199</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card" data-cat="design">
+        <div class="card-thumb" style="background:linear-gradient(135deg,#fdf2ff,#e9b8ff);">✨</div>
+        <div class="card-body">
+          <div class="card-tag" style="background:#fdf2ff;color:#9333ea;">Branding</div>
+          <div class="card-title">Brand Identity Design: Logo to Full System</div>
+          <div class="card-meta">
+            <span>⭐ 4.9</span>
+            <span>🕐 22h</span>
+            <span>👥 6.5K</span>
+          </div>
+          <div class="card-footer">
+            <div class="card-instructor">
+              <div class="inst-avatar" style="background:linear-gradient(135deg,#a855f7,var(--pink));">DT</div>
+              Dev T.
+            </div>
+            <div class="card-price"><s>₹2,499</s>₹849</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="how-inner">
+    <div class="reveal">
+      <div class="section-tag how-tag">⚡ How It Works</div>
+      <h2 style="color:var(--white);">Your Journey from<br/>Zero to Hired</h2>
+      <p style="color:rgba(250,249,246,0.5);margin-top:0.75rem;max-width:460px;">A simple 4-step system designed to get you results — not just certificates.</p>
+    </div>
+
+    <div class="how-grid">
+      <div class="how-card reveal reveal-delay1">
+        <div class="how-num">01</div>
+        <div class="how-icon" style="background:var(--pink-pale);">🎯</div>
+        <h3>Pick Your Path</h3>
+        <p>Choose from 320+ courses across tech, design, data, and business. Our quiz helps you find the right fit.</p>
+      </div>
+      <div class="how-card reveal reveal-delay1">
+        <div class="how-num">02</div>
+        <div class="how-icon" style="background:var(--blue-pale);">📺</div>
+        <h3>Learn at Your Pace</h3>
+        <p>HD video lessons, live sessions, downloadable resources, and a vibrant community — all in one place.</p>
+      </div>
+      <div class="how-card reveal reveal-delay2">
+        <div class="how-num">03</div>
+        <div class="how-icon" style="background:var(--cyan-pale);">🛠</div>
+        <h3>Build Real Projects</h3>
+        <p>Every course includes hands-on projects you can add directly to your portfolio. No toy examples.</p>
+      </div>
+      <div class="how-card reveal reveal-delay3">
+        <div class="how-num">04</div>
+        <div class="how-icon" style="background:var(--yellow-pale);">🚀</div>
+        <h3>Get Hired</h3>
+        <p>Career support, resume reviews, mock interviews, and direct job referrals to 500+ hiring partners.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-inner">
+    <div class="reveal" style="text-align:center;margin-bottom:0;">
+      <div class="section-tag" style="color:var(--orange);justify-content:center;">💬 Student Stories</div>
+      <h2>Real Results,<br/>Real People</h2>
+      <p class="section-lead" style="margin:0 auto;text-align:center;">Over 84,000 students have transformed their careers with SkillForge.</p>
+    </div>
+
+    <div class="t-grid reveal reveal-delay1">
+      <div class="t-card">
+        <div class="t-stars" style="color:var(--yellow);">★★★★★</div>
+        <p class="t-quote">"I went from a complete beginner to a frontend developer in 6 months. Got my first offer at ₹12 LPA — couldn't have done it without SkillForge!"</p>
+        <div class="t-author">
+          <div class="t-ava" style="background:linear-gradient(135deg,var(--pink),var(--orange));">AS</div>
+          <div>
+            <div class="t-name">Aman Singh</div>
+            <div class="t-role">Frontend Dev @ Razorpay</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card">
+        <div class="t-stars" style="color:var(--yellow);">★★★★★</div>
+        <p class="t-quote">"The ML course was insanely practical. I built 5 real projects that got me shortlisted at Google in my very first attempt."</p>
+        <div class="t-author">
+          <div class="t-ava" style="background:linear-gradient(135deg,var(--blue),var(--cyan));">RG</div>
+          <div>
+            <div class="t-name">Riya Gupta</div>
+            <div class="t-role">ML Engineer @ Google</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card">
+        <div class="t-stars" style="color:var(--yellow);">★★★★★</div>
+        <p class="t-quote">"Switched from civil engineering to UI/UX in under a year. The Figma masterclass was the best investment I've ever made."</p>
+        <div class="t-author">
+          <div class="t-ava" style="background:linear-gradient(135deg,var(--cyan),var(--green));">KP</div>
+          <div>
+            <div class="t-name">Kavya Pillai</div>
+            <div class="t-role">Senior UX Designer @ CRED</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="section-inner" style="text-align:center;">
+    <div class="reveal">
+      <div class="section-tag" style="color:var(--pink);justify-content:center;">💳 Simple Pricing</div>
+      <h2>Invest in Yourself,<br/>Not in Confusion</h2>
+      <p class="section-lead" style="margin:0.75rem auto 0;text-align:center;">One price. All courses. Cancel anytime.</p>
+    </div>
+
+    <div class="price-grid reveal reveal-delay1">
+      <!-- Free -->
+      <div class="p-card">
+        <div class="p-plan">Starter</div>
+        <div class="p-price"><sup>₹</sup>0</div>
+        <div class="p-period">Free forever</div>
+        <ul class="p-features">
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>5 free courses</li>
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>Community access</li>
+          <li><div class="p-check" style="background:var(--bg2);color:var(--muted);">—</div>Live sessions</li>
+          <li><div class="p-check" style="background:var(--bg2);color:var(--muted);">—</div>Certificate</li>
+          <li><div class="p-check" style="background:var(--bg2);color:var(--muted);">—</div>Career support</li>
+        </ul>
+        <a href="#cta" class="p-btn p-btn-outline">Get Started Free</a>
+      </div>
+
+      <!-- Pro (Featured) -->
+      <div class="p-card featured">
+        <div class="p-popular">Most Popular</div>
+        <div class="p-plan">Pro</div>
+        <div class="p-price"><sup>₹</sup>499</div>
+        <div class="p-period">per month · billed annually</div>
+        <ul class="p-features">
+          <li><div class="p-check" style="background:rgba(6,214,160,0.2);color:var(--green);">✓</div>All 320+ courses</li>
+          <li><div class="p-check" style="background:rgba(6,214,160,0.2);color:var(--green);">✓</div>Live sessions</li>
+          <li><div class="p-check" style="background:rgba(6,214,160,0.2);color:var(--green);">✓</div>Certificates</li>
+          <li><div class="p-check" style="background:rgba(6,214,160,0.2);color:var(--green);">✓</div>Career support</li>
+          <li><div class="p-check" style="background:rgba(6,214,160,0.2);color:var(--green);">✓</div>Job referrals</li>
+        </ul>
+        <a href="#cta" class="p-btn p-btn-white">Start 7-Day Free Trial</a>
+      </div>
+
+      <!-- Teams -->
+      <div class="p-card">
+        <div class="p-plan">Teams</div>
+        <div class="p-price"><sup>₹</sup>299</div>
+        <div class="p-period">per seat · min 10 seats</div>
+        <ul class="p-features">
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>Everything in Pro</li>
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>Team dashboard</li>
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>Custom paths</li>
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>Analytics</li>
+          <li><div class="p-check" style="background:#f0fff8;color:var(--green);">✓</div>Dedicated CSM</li>
+        </ul>
+        <a href="#cta" class="p-btn p-btn-outline">Contact Sales</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" style="position:relative;">
+  <div class="cta-shapes">
+    <div class="cta-circle" style="width:500px;height:500px;top:-150px;left:-100px;"></div>
+    <div class="cta-circle" style="width:300px;height:300px;bottom:-80px;right:5%;"></div>
+    <div class="cta-circle" style="width:200px;height:200px;top:20%;right:20%;"></div>
+  </div>
+  <div class="cta-inner reveal">
+    <div class="section-tag" style="color:rgba(255,255,255,0.7);justify-content:center;margin-bottom:1rem;">✨ Limited Offer</div>
+    <h2>Start Learning Today.<br/>Your Future Self Will Thank You.</h2>
+    <p>Join 84,000+ learners. Get full access free for 7 days — no credit card needed.</p>
+    <div class="email-wrap">
+      <input class="email-in" type="email" id="ctaEmail" placeholder="Enter your email address"/>
+      <button class="btn-white" onclick="handleCta()">Start Free →</button>
+    </div>
+    <div id="cta-msg"></div>
+    <p style="font-size:0.78rem;color:rgba(255,255,255,0.45);margin-top:1.25rem;">🔒 No spam. Unsubscribe anytime. 30-day money-back guarantee.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="logo" style="color:var(--bg);">
+          <div class="logo-mark">S</div>
+          <span style="color:var(--bg);">SkillForge</span>
+        </a>
+        <p>Learn skills that matter. Build things that last.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Courses</h4>
+        <ul>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">UI/UX Design</a></li>
+          <li><a href="#">Data Science</a></li>
+          <li><a href="#">AI & Machine Learning</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 SkillForge Technologies Pvt. Ltd. All rights reserved.</div>
+      <div class="footer-socials">
+        <a href="#" class="social-btn">𝕏</a>
+        <a href="#" class="social-btn">in</a>
+        <a href="#" class="social-btn">▶</a>
+        <a href="#" class="social-btn">📸</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
